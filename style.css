@@ -1,0 +1,179 @@
+
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    box-shadow: 0 2px 2px -1px rgba(122, 119, 119, 0.8);
+}
+.dropdown-item{
+    line-height: 1;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: black;
+    color:gainsboro;
+    font-weight: 600;
+   
+}
+ .dropdown-toggle::after{
+    border: none;
+    vertical-align: middle;
+    font-size: 1rem;
+}
+ .nav-item:hover>.dropdown-toggle::after,
+ .nav-link.dropdown-toggle.show{
+    color: #0d6efd;
+}
+ .dropdown-item:hover,
+ .dropdown-item:focus,
+ .navbar-nav .nav-link:hover{
+    color: var(--primary-color);
+    background-color: transparent;
+}
+.navbar-nav li:hover>ul.dropdown-menu{
+    display: block;
+}
+.navbar-toggler{
+    color: white;
+    font-size: 2rem;
+    height: 2.7rem;
+    padding: 0;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+.scrolled{
+    position: fixed;
+    top: 0;
+    width: 100%;
+} 
+.nav-item > .nav-link{
+    font-weight: 500;
+    color: black;
+}
+.nav-item >.nav-link:hover{
+    color: #0d6efd;
+}
+
+.sp-1{
+    font-size: 20px;
+    font-weight: 700;
+}
+img{
+
+    width: 100vw;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 5%;
+    
+}
+h4{
+    font-weight: 700;
+}
+p{
+    text-align: justify;
+}
+
+.cutstom-text{
+    letter-spacing: 2rem;
+    
+}
+@media(max-width:768px){
+    .cutstom-text{
+        font-size: 1.3rem;
+        letter-spacing: 8px;
+    }
+}
+.cutstom-text1{
+    letter-spacing: 1.2rem;
+    letter-spacing: 14px;
+    
+}
+@media(max-width:768px){
+    .cutstom-text1{
+        font-size: 1.3rem;
+        letter-spacing: 8px;
+    }
+}
+.about{
+    padding-top: 20vh;
+    line-height: 2;
+
+}
+@media(max-width:768px){
+    .about{
+        padding-top: 5vh;
+        line-height: 2;
+    
+    }
+}
+.ul-about > li{
+    margin-left: 14px;
+}
+.navbar-brand{
+    width: 8vw;
+
+}
+@media(max-width:768px){
+    .navbar-brand, img{
+        width: 14vw;
+        margin-left: 10px;
+    }
+}
+
+
+img{
+    background-size: contain;
+    
+
+}
+.founder{
+    padding-top: 15vh;
+    line-height: 2;
+
+}
+@media(max-width:768px){
+    .founder{
+        padding-top: 5vh;
+        line-height: 2;
+    
+    }
+}
+#team{
+    height: 90vh;
+    width: 100vw;
+    
+
+}
+.teamh-1{
+    padding-top: 300px;
+}
+
+@media(max-width:768px){
+    .teamh-1{
+        padding-top: 20vh;
+        line-height: 1.5;
+        height: 30vh;
+        width: 100%;
+    
+    }
+}
+
+.contacth-3{
+    padding-top: 26vh;
+}
+@media(max-width:768px){
+    .contacth-3{
+        padding-top: 15vh;
+        line-height: 1.5;
+        height: 30vh;
+        width: 100%;
+    
+    }
+}
